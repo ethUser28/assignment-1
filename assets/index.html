@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="CSS/Main.css" type="text/css">
+
+<!-- +1 point: the page contains all the required HTML tags.
++1 point: the page is organized using semantic HTML tags. ✅
++2 points: the page is responsive and its layout is organized using flexbox. ✅
++2 points: the page uses Bootstrap.
++1 point: all the links and URLs are correct and work.
++1 point: all the assets are stored in a folder called assets and in respective subfolders (e.g., css for CSS files, js for JavaScript files, and img for images).
++1 point: the background of the page changes color when the width of the page is smaller than 600 pixels. ✅
++1 point: the background of the first section changes color when the width of the page is between 600 and 900 pixels. ✅
++1 point: the background of the footer changes color when the width of the page is greater than 900 pixels. ✅
++1 point: the page incorporates an external font family (e.g., Google web fonts). ✅
++1 point: the website is published on GitHub. ✅
++1 point: the website is posted on GitHub pages. ✅
+-1 point for every link or URL that is broken or does not work -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>LM</title>
+    <link rel="icon" type="image/x-icon" href="Images/favicon.ico">
+</head>
+<body>
+    <header>
+        <div id="header_title">
+            <img src="Images/Main_logo.png" alt="Logo" id="img_width_25percent">
+        </div>
+
+        <!-- a navigation menu at the top. ✅
+            a first section with your picture and a sentence that describes you professionally. ✅
+            a second section containing your bio (one or two paragraphs) and highlighting your achievements. ✅
+            a third section that summarizes your top 3 skills, using images and a short description. ✅
+            a fourth section in which you share your hobbies and favorite activities (e.g., your favorite bands), using 4-8 images. ✅
+            a fifth section that contains a contact form with the relevant fields for sending you a message (you are not required to have a working contact form, but the fields should be there). ✅
+            a footer with your relevant contact information, including social links. ✅-->
+
+        <div id="nav_bar">
+            <div class="nav_bar_box">
+                <a href="index.html"><h1 class="nav_font">Home</h1></a>
+            </div>
+            <div class="nav_bar_box">
+                <a href="bio.html"><h1 class="nav_font">Bio</h1></a>
+            </div>
+            <div class="nav_bar_box">
+                <a href="AoW.html"><h1 class="nav_font">Areas of Work</h1></a>
+            </div>
+            <div class="nav_bar_box">
+                <a href="PL.html"><h1 class="nav_font">Personal Life</h1></a>
+            </div>
+            <div class="nav_bar_box">
+                <a href="Contact.html"><h1 class="nav_font">Contact</h1></a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="info_select">
+            <h1>Who is LM?</h1>
+        </div>
+        <hr>
+        <div class="flexBoxHolder">
+            <div class="column1">
+                <img src="Images/me.jpeg" alt="Lawyer" width="100%">
+            </div>
+            <div class="column2" class="padding_left_3percent">
+                <h1 class="smaller">Luke Montgomery</h1>
+                <P>Hello, my name is Luke. I am a computer science major at Northern Kentucky University. I have always had an interest in robotics, automation, and being a computer creative. I love hearing about new technologies and the implementation challenges they face.</P>
+            </div>
+        </div>
+        <hr>
+    </main>
+
+    <footer>
+        <div class="footer_holder">
+            <h3 class="footer_text header">Quick Links</h3>
+            <a href="index.html"><h3 class="footer_text">Home</h3></a>
+            <a href="bio.html"><h3 class="footer_text">Bio</h3></a>
+            <a href="AoW.html"><h3 class="footer_text">Area Of Work</h3></a>
+            <a href="PL.html"><h3 class="footer_text">Personal Life</h3></a>
+            <a href="Contact.html"><h3 class="footer_text">Contact</h3></a>
+        </div>
+        <div class="footer_holder">
+            <h3 class="footer_text header">Socials</h3>
+            <a href="https://www.instagram.com/"><h3 class="footer_text">Instagram</h3></a>
+            <a href="https://twitter.com/"><h3 class="footer_text">Twitter</h3></a>
+        </div>
+        <div class="footer_holder">
+            <h3 style="text-align: justify" class="footer_text header">I look forward to working with you! Below you will find my socials. Immediate contact is available via email: defRealMail@boink.com</h3>
+        </div>
+    </footer>
+
+</body>
+</html>
